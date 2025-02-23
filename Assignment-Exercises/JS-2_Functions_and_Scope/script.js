@@ -26,6 +26,8 @@ demoFunctionScope = () => {
  - Call your function from Step 2 and store its result in a variable.
  - Use console.log() to display the return value in the console.
 ********************/
+results = demoFunctionScope();
+console.log(results);
 
 /********************
  Step 4: Demonstrate Block Scope
