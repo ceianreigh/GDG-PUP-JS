@@ -55,10 +55,10 @@ console.log(typeof isEmployed); // Output: should be "boolean" (until a value is
 console.log(typeof favoriteBooks); // Output: should be "object" (until a value is assigned)
 
 // Using var
-var city; // Define a string here, e.g., "New York"
-var temperature; // Define a number here, e.g., 22.5
-var hasPets; // Define a boolean here, e.g., true or false
-var colors; // Define an array here, e.g., ["red", "green", "blue"]
+var city = "New York"; // Define a string here, e.g., "New York"
+var temperature = 22.5; // Define a number here, e.g., 22.5
+var hasPets = true; // Define a boolean here, e.g., true or false
+var colors = ["red", "green", "blue"]; // Define an array here, e.g., ["red", "green", "blue"]
 
 // Checking types and values
 console.log(typeof city); // Output: should be "string" (until a value is assigned)
