@@ -23,10 +23,10 @@
  */
 
 // Using let
-let name = "Juan Cruz"; // Define a string here, e.g., "Juan Cruz"
-let age = 30; // Define a number here, e.g., 30
-let isStudent = false; // Define a boolean here, e.g., true or false
-let hobbies = ["reading", "gaming", "coding"]; // Define an array here, e.g., ["reading", "gaming", "coding"]
+let name = "Ceianreigh Keann Cepillo"; // Define a string here, e.g., "Juan Cruz"
+let age = 19; // Define a number here, e.g., 30
+let isStudent = true; // Define a boolean here, e.g., true or false
+let hobbies = ["reading", "coding", "listening to music"]; // Define an array here, e.g., ["reading", "gaming", "coding"]
 
 // Checking types and values
 console.log(typeof name); // Output: should be "string"  (until a value is assigned)
@@ -35,10 +35,14 @@ console.log(typeof isStudent); // Output:  should be "boolean" (until a value is
 console.log(typeof hobbies); // Output: should be "object" (until a value is assigned)
 
 // Using const
-const pi = undefined; // Define a number here, e.g., 3.14159
-const birthYear = undefined; // Define a number here, e.g., 1990
-const isEmployed = undefined; // Define a boolean here, e.g., true or false
-const favoriteBooks = undefined; // Define an array here, e.g., ["1984", "Brave New World", "Fahrenheit 451"]
+const pi = 3.14159; // Define a number here, e.g., 3.14159
+const birthYear = 2005; // Define a number here, e.g., 1990
+const isEmployed = false; // Define a boolean here, e.g., true or false
+const favoriteBooks = [
+  "Harry Potter",
+  "Twilight",
+  "The 100 Laws of Human Nature",
+]; // Define an array here, e.g., ["1984", "Brave New World", "Fahrenheit 451"]
 
 // Checking types and values
 console.log(typeof pi); // Output: should be "number" (until a value is assigned)
