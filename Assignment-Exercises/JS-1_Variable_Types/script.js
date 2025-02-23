@@ -23,10 +23,14 @@
  */
 
 // Using let
-let name = "Ceianreigh Keann Cepillo"; // Define a string here, e.g., "Juan Cruz"
-let age = 19; // Define a number here, e.g., 30
-let isStudent = true; // Define a boolean here, e.g., true or false
-let hobbies = ["reading", "coding", "listening to music"]; // Define an array here, e.g., ["reading", "gaming", "coding"]
+let name = "John Cruz"; // Define a string here, e.g., "Juan Cruz"
+name = "Ceianreigh Keann Cepillo";
+let age = 30; // Define a number here, e.g., 30
+age = 19;
+let isStudent = false; // Define a boolean here, e.g., true or false
+isStudent = true;
+let hobbies = ["reading", "gaming", "coding"]; // Define an array here, e.g., ["reading", "gaming", "coding"]
+hobbies = ["reading", "coding", "listening to music", "watching movies"];
 
 // Checking types and values
 console.log(typeof name); // Output: should be "string"  (until a value is assigned)
