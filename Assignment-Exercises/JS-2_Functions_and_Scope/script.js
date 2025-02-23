@@ -14,6 +14,12 @@ anotherGlobalVar = 15;
    2. Log both the global variable(s) and the local variable to the console.
    3. Return a string that includes both the global and local variables.
 ********************/
+demoFunctionScope = () => {
+  localVar = "world";
+  console.log(globalVar);
+  console.log(localVar);
+  return globalVar + localVar;
+};
 
 /********************
  Step 3: Call the Function and Log Its Return Value
