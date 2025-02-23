@@ -37,3 +37,7 @@ console.log(results);
    2. Log the block-scoped variable within the block.
  - Try logging the same variable outside the block and observe what happens.
 ********************/
+if (true) {
+  let blockVar = "block";
+  console.log(blockVar);
+}
