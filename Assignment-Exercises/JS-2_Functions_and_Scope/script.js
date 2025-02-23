@@ -38,6 +38,6 @@ console.log(results);
  - Try logging the same variable outside the block and observe what happens.
 ********************/
 if (true) {
-  let blockVar = "block";
+  let blockVar = results;
   console.log(blockVar);
 }
