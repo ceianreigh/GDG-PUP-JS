@@ -3,7 +3,8 @@
  - Create two global variables (e.g., globalVar, anotherGlobalVar).
  - Assign any values you like.
 ********************/
-
+globalVar = "hello";
+anotherGlobalVar = 15;
 
 /********************
  Step 2: Create a Function to Demonstrate Function Scope
@@ -14,13 +15,11 @@
    3. Return a string that includes both the global and local variables.
 ********************/
 
-
 /********************
  Step 3: Call the Function and Log Its Return Value
  - Call your function from Step 2 and store its result in a variable.
  - Use console.log() to display the return value in the console.
 ********************/
-
 
 /********************
  Step 4: Demonstrate Block Scope
