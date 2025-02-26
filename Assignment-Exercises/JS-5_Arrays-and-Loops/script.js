@@ -10,6 +10,6 @@ let favoriteMovies = [
 // Loop through the favoriteMovies array and log each movie
 let index = 0;
 while (index < favoriteMovies.length) {
-  console.log(${favoriteMovies[index]});
+  console.log(`${favoriteMovies[index]}`);
   index++;
 }
