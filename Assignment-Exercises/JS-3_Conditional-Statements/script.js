@@ -21,4 +21,7 @@ function checkAge() {
   else {
     category = "Invalid age. Please enter a valid number.";
   }
+
+  // Display the category
+  document.getElementById("result").textContent = category;
 }
