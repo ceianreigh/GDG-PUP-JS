@@ -23,5 +23,5 @@ function checkAge() {
   }
 
   // Display the category
-  document.getElementById("result").textContent = category;
+  document.getElementById("result").textContent = "You are a(n): " + category;
 }
