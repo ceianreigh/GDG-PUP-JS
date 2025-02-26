@@ -11,3 +11,4 @@ function getDescription(car) {
 }
 
 // Step 3: Call the function and display the result
+console.log(getDescription(car));
