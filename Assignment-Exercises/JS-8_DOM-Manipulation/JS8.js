@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // add event listener to subtractButton
   subtractButton.addEventListener("click", function () {
-    if (counterVal > 0) {
+    if (counterValue > 0) {
       // decrement counter value by 1
       counterValue--;
       // set new counter value
