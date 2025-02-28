@@ -4,4 +4,15 @@ document.addEventListener("DOMContentLoaded", function () {
   const counterText = document.getElementById("counter-text");
   const addButton = document.getElementById("button-add");
   const subtractButton = document.getElementById("button-subtract");
+
+  // set initial counter value
+  let counterValue = 0;
+
+  // add event listener to addButton
+  addButton.addEventListener("click", function () {
+    // increment counter value by 1
+    counterValue++;
+    // set new counter value
+    counterText.innerText = counterValue;
+  });
 });
