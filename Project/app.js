@@ -23,7 +23,7 @@ let ties = 0 // initialize ties to 0
 let userChoice = ''; // Store the user's choice
 
 // Available choices for the game
-const choices = ['rock', '', ''];
+const choices = ['rock', 'paper', 'scissors'];
 
 // ========== EVENT LISTENERS ==========
 // add an event listener to rock button in your index.html (e,g, <div id="rock">...</div>)
