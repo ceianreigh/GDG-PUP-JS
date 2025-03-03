@@ -5,7 +5,7 @@
 // Grab the Start button element
 let startButton = document.getElementById("startButton"); // using getElementById
 let userChoiceDisplay = document.querySelector("#userChoice"); // using querySelector
-let computerChoiceDisplay = document.querySelector("#computer Choice"); // grab the computerChoice id
+let computerChoiceDisplay = document.querySelector("#computerChoice"); // grab the computerChoice id
 let resultDisplay = document.querySelector("#result"); // grab the result id
 let winsDisplay = document.querySelector("#wins"); // grab the wins id
 let lossesDisplay = document.querySelector("#losses"); // grab the losses id
@@ -19,8 +19,6 @@ let userChoice = ""; // Store the user's choice
 let wins = 0;
 let losses = 0; // initialize losses to 0
 let ties = 0; // initialize ties to 0
-
-let userChoice = ""; // Store the user's choice
 
 // Available choices for the game
 const choices = ["rock", "paper", "scissors"];
@@ -42,7 +40,7 @@ document
 // add an event listener to the startButton and call the playGame function
 document.getElementById("startButton").addEventListener("click", playGame);
 // add an event listener to the resetButton and call the resetGame function
-document.getElementById("resetButton");
+document.getElementById("resetButton").addEventListener("click", resetGame);
 
 // ========== FUNCTIONS ==========
 /**
@@ -68,7 +66,7 @@ function selectChoice(choice) {
 function getComputerChoice() {
   // Return a random choice from the 'choices' array
   const randomIndex = Math.floor(Math.random() * choices.length); // generate a random index
-  return randomIndex; // return the choice at the random index
+  return choices[randomIndex]; // return the choice at the random index
 }
 
 /**
@@ -88,7 +86,7 @@ function determineWinner(userChoice, computerChoice) {
   else if (
     (userChoice === "rock" && computerChoice === "scissors") ||
     (userChoice === "paper" && computerChoice === "rock") ||
-    (userChoice === "scissor" && computerChoice === "paper")
+    (userChoice === "scissors" && computerChoice === "paper")
   ) {
     return "win"; // based on the conditions above, what should be returned?
   } else {
