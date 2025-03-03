@@ -155,8 +155,7 @@ function resetGame() {
     "<img src='./assets/images/icon-computer.png' alt='computer' class='choice--img'>";
 
   // Reset the resultDisplay to 'Choose your weapon!'
-  resultDisplay.textContent =
-    "<img src='./assets/images/icon-computer.png' alt='computer' class='choice--img'>";
+  resultDisplay.textContent = "Choose your weapon!"; // update the resultDisplay with the new value
 
   // Reset the all score variables to 0
   wins = 0;
