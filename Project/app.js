@@ -17,8 +17,8 @@ let userChoice = ''; // Store the user's choice
 
 // Track the score: wins, losses, and ties initialized to 0
 let wins = 0;
-let losses = // initialize losses to 0
-let ties = // initialize ties to 0
+let losses = 0 // initialize losses to 0
+let ties = 0 // initialize ties to 0
 
 let userChoice = ''; // Store the user's choice
 
