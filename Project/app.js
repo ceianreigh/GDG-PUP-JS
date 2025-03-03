@@ -149,24 +149,26 @@ function resetGame() {
   userChoice = "";
 
   // Reset the userChoiceDisplay to '<img src="./assets/images/icon-user.png" alt="user" class="choice--img">'
-  userChoiceDisplay.innerHTML = "";
+  userChoiceDisplay.innerHTML =
+    "<img src='./assets/images/icon-user.png' alt='user' class='choice--img'>";
 
   // Reset the computerChoiceDisplay to '<img src="./assets/images/icon-computer.png" alt="computer" class="choice--img">';
-  computerChoiceDisplay.innerHTML = "";
+  computerChoiceDisplay.innerHTML =
+    "<img src='./assets/images/icon-computer.png' alt='computer' class='choice--img'>";
 
   // Reset the resultDisplay to 'Choose your weapon!'
-  resultDisplay.textContent = "";
+  resultDisplay.textContent =
+    "<img src='./assets/images/icon-computer.png' alt='computer' class='choice--img'>";
 
   // Reset the all score variables to 0
   wins = 0;
-  // ...
-  // ...
+  losses = 0; // ...
+  ties = 0; // ...
 
   // Update the score displays
   winsDisplay.textContent = wins;
-  lossesDisplay.textContent = // update the lossesDisplay with the new value
-    tiesDisplay.textContent = // update the tiesDisplay with the new value
-    // Disable the Start button
-    startButton.disabled =
-      true;
+  lossesDisplay.textContent = losses; // update the lossesDisplay with the new value
+  tiesDisplay.textContent = ties; // update the tiesDisplay with the new value
+  // Disable the Start button
+  startButton.disabled = true;
 }
