@@ -62,8 +62,8 @@ function selectChoice(choice) {
  **/
 function getComputerChoice() {
     // Return a random choice from the 'choices' array
-    const randomIndex = // generate a random index
-    return // return the choice at the random index
+    const randomIndex = Math.floor(Math.random() * choices.length) // generate a random index
+    return randomIndex // return the choice at the random index
 }
 
 
@@ -83,12 +83,12 @@ function determineWinner(userChoice, computerChoice) {
     // || is the logical OR operator just like in Python  (e.g., if True or False) it returns True because one of the conditions is True
     else if (
         (userChoice === 'rock' && computerChoice === 'scissors') ||
-        (userChoice === '' && computerChoice === '') ||
-        (userChoice === '' && computerChoice === '')
+        (userChoice === 'paper' && computerChoice === 'rock') ||
+        (userChoice === 'scissor' && computerChoice === 'paper')
     ) {
-        return // based on the conditions above, what should be returned?
+        return 'win'; // based on the conditions above, what should be returned?
     } else {
-        return // since it's not a draw or a win, what should be returned?
+        return 'lose'; // since it's not a draw or a win, what should be returned?
     }
 }
 
@@ -102,10 +102,11 @@ function updateScore(result) {
         wins++; // increment wins by 1, same as wins = wins + 1
         winsDisplay.textContent = wins; // update the winsDisplay with the new value
     } else if (result === 'lose') {
-        losses = // increment losses by 1
+        losses++ // increment losses by 1
         lossesDisplay.textContent = losses; // update the lossesDisplay with the new value
     } else {
-        // what should be done here?
+        ties++ // increment ties by 1
+        tiesDisplay.textContent = ties; // update the tiesDisplay with the new value
     }
 }
 
