@@ -5,11 +5,11 @@
 // Grab the Start button element
 let startButton = document.getElementById('startButton') // using getElementById
 let userChoiceDisplay = document.querySelector('#userChoice'); // using querySelector
-let computerChoiceDisplay = // grab the computerChoice id
-let resultDisplay = // grab the result id
-let winsDisplay = // grab the wins id
-let lossesDisplay = // grab the losses id
-let tiesDisplay = // grab the ties id
+let computerChoiceDisplay = document.querySelector('#computer Choice') // grab the computerChoice id
+let resultDisplay = document.querySelector('#result') // grab the result id
+let winsDisplay = document.querySelector('#wins') // grab the wins id
+let lossesDisplay = document.querySelector('#losses') // grab the losses id
+let tiesDisplay = document.querySelector('#ties') // grab the ties id
 
 // ========== GAME STATE VARIABLES ==========
 // Track the state of the game
