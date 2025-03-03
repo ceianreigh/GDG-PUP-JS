@@ -29,8 +29,9 @@ const choices = ['rock', 'paper', 'scissors'];
 // add an event listener to rock button in your index.html (e,g, <div id="rock">...</div>)
 document.getElementById('rock').addEventListener('click', () => selectChoice('rock'));
 // add an event listener to paper button in your index.html
-
+document.getElementById('paper').addEventListener('click', () => selectChoice('paper'));
 // add an event listener to scissors button in your index.html
+document.getElementById('scissors').addEventListener('click', () => selectChoice('scissors'));
 
 // add an event listener to the startButton and call the playGame function
 document.getElementById('startButton').addEventListener('click', playGame);
